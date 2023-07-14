@@ -55,6 +55,7 @@ socket.on('notificar', user => {
         }
     })
 
+    // console.log(user)
     Toast.fire({
         icon: 'success',
         title: `${user} se unió al chat`
